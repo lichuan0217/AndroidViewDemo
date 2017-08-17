@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lemonsoda.top.customview.touchEvent.MyLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="lemonsoda.top.customview.touchEvent.TouchEventActivity">
+
+    <lemonsoda.top.customview.touchEvent.MyButton
+        android:id="@+id/btn1"
+        android:layout_margin="50dp"
+        android:text="MyButton 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <lemonsoda.top.customview.touchEvent.MyButton
+        android:id="@+id/btn2"
+        android:layout_margin="50dp"
+        android:text="MyButton 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</lemonsoda.top.customview.touchEvent.MyLinearLayout>
